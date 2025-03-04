@@ -10,3 +10,9 @@ font-size: 50px;
 color: white;
 text-align: center;
 }
+
+a {
+    color: rgb(69, 240, 183);
+    text-align: center;
+    font-size: 16px;
+}
