@@ -1,0 +1,12 @@
+.navigation {
+    color: white;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 100%;
+    height: 64px;
+}
+
+.navleft {
+    text-align: left;
+    display: inline;
+}
