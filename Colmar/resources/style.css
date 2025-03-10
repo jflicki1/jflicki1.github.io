@@ -16,6 +16,8 @@ html, body{
     align-content: center;
     overflow: hidden;
     align-items: center;
+    z-index: 1;
+    background-color: white;
 }
 
 .navleft {
@@ -108,7 +110,7 @@ padding-bottom: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: rgb(74, 77, 77);
-    transition: background-color 200ms ease-in 200ms;
+    transition: background-color 100ms ease-in 100ms;
     border-radius: 15px;
 }
 
@@ -247,7 +249,7 @@ padding-bottom: 32px;
 
 .linkgallery :hover {
     color: greenyellow;
-    transition: color 200ms ease-in 200ms;
+    transition: color 100ms ease-in 100ms;
 }
 
 .starthere {
@@ -255,4 +257,220 @@ padding-bottom: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color:rgb(74, 77, 77);
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
+
+.starthere h1 {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.coursegallery {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+    justify-content: center;
+}
+
+.course1 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+.course2 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.course3 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.course4 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+
+}
+.course5 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+.course6 {
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.classes {
+    width: 100;
+    height: auto;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course1 img {
+    width: 100%;
+    height: auto;
+}
+.course2 img {
+    width: 100%;
+    height: auto;
+}
+
+.course3 img {
+    width: 100%;
+    height: auto;
+}
+.course4 img {
+    width: 100%;
+    height: auto;
+}
+.course5 img{
+    width: 100%;
+    height: auto;
+}
+.course6 img {
+    width: 100%;
+    height: auto;
+}
+
+.classes h5 {
+    font-weight: lighter;
+}
+
+#courses {
+    font-weight: lighter;
+    padding-bottom: 8px ;
+    padding-right: 8px;
+}
+
+.thesis {
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(74, 77, 77);
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.video .description1{
+    height: auto;
+    width: 100%;
+}
+.thesis video {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.info {
+    height: auto;
+    row-gap: 24px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-items: flex-start; 
+}
+
+.info h3 {
+    margin-top: 24px;
+}
+
+.exhbitgallery {
+    height: auto;
+    width: 40%;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exhibit1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: rgb(207, 204, 204);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.exhibit2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.exhibit1 img{
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+
+}
+
+.exhibit1 .description1 {
+    width: 65%;
+    height: auto;
+}
+
+.exhibit2 img{
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+
+}
+
+.exhibit2 .description1 {
+    width: 65%;
+    height: auto;
+}
+
+.description1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.description h6 {
+    font-weight: lighter;
+}
+
+.description1 h6 {
+    font-weight: lighter;
+}
+.description1 h3 {
+    font-weight: bold;
+}
+
