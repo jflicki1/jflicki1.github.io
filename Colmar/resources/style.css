@@ -520,12 +520,85 @@ a #privacy :hover {
     display: flex;
     flex-direction: row;
     background-image: url(./images/ic-logo.svg), url(./images/ic-login.svg), url(./images/ic-on-campus.svg), url(./images/ic-online.svg);
-    background-position: 20%, 45%, 65%, 80%;
+    background-position: 20%, 40%, 60%, 80%;
     background-repeat: no-repeat;
 }
        
 .navleft {
 display: none;
 }
-     
+
+.learn {
+    display: flex;
+    flex-direction: column-reverse; 
+}
+
+.banner {
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom:0% ;
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.practice {
+    margin-top: 16px;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.practicedescription {
+    display: none;
+}
+
+ .gallery {
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 32px;
+    align-items: center;
+}
+
+.gallery1 {
+    flex-direction: column;
+    padding-bottom: 64px;
+    width: 100%;b
+}
+
+.gallery1 img {
+    width: 100%;
+
+}
+
+.gallery2 {
+    padding-bottom: 64px;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.gallery2 img {
+    width: 100%;
+}
+.gallery3 {
+    flex-direction: column;
+    width: 100%;
+}
+
+.gallery3 img {
+    width: 100%;
+}
     }
+
