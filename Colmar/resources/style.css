@@ -474,3 +474,58 @@ padding-bottom: 32px;
     font-weight: bold;
 }
 
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: rgb(74, 77, 77);
+    margin-left: 24px;
+}
+
+ a #terms {
+    font-weight: lighter;
+    color: rgb(74, 77, 77);
+}
+
+a #terms :hover {
+    color: greenyellow;
+    transition: color 100ms ease-in 100ms;
+}
+
+a #privacy {
+    font-weight: lighter;
+    color: rgb(74, 77, 77);
+}
+
+a #privacy :hover {
+    color: greenyellow;
+    transition: color 100ms ease-in 100ms; 
+}
+
+.footright {
+    float: inline-end;
+}
+
+    @media only screen and (max-width: 768px) {
+       .navigation {
+        background-color: white;
+        font-size: 14px;
+        width: 100%;
+        height: 64px;
+        text-indent: -99999px;
+        display: flex;
+       }
+.navright {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/ic-logo.svg), url(./images/ic-login.svg), url(./images/ic-on-campus.svg), url(./images/ic-online.svg);
+    background-position: 20%, 45%, 65%, 80%;
+    background-repeat: no-repeat;
+}
+       
+.navleft {
+display: none;
+}
+     
+    }
