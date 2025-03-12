@@ -600,5 +600,80 @@ display: none;
 .gallery3 img {
     width: 100%;
 }
+
+.coursegallery img {
+    display: none;
+}
+
+.coursegallery h5 {
+    display: none;
+}
+
+.coursegallery #courses {
+
+    display: none;
+}
+
+.coursegallery {
+
+    flex-direction: column;
+    max-width: 100%;
+    font-size: 24px;
+    row-gap: 8px;
+}
+
+.course1,
+.course2,
+.course3,
+.course4,
+.course5,
+.course6 {
+ background-color:rgb(207, 204, 204);
+ width: 100%;
+ border-radius: 25px ;
+}
+
+.starthere {
+    background-color: white;
+}
+
+.exhbitgallery {
+    display: none;
+}
+
+.video {
+    width: 100%;
+}
+
+.video .video {
+    width: 100%;
+}
+.info {
+width: 100%;
+align-items: center;
+margin-left: 0;
+margin-right: 0;
+
+}
+
+.video .description1 {
+    display: none;
+}
+
+.thesis {
+    margin-bottom: 24px;
+}
+
+footer .footright {
+    display: none;
+}
+
+.footleft {
+    font-size: smaller;
+}
+
+footer {
+    margin-bottom: 16px;
+}
     }
 
