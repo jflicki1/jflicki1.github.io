@@ -1,0 +1,225 @@
+html {
+    padding: 0%;
+    margin: 0;
+    background-color:  #F4F4F4;
+    font-family: 'Ford Antenna Regular', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    font-family:'Ford Antenna Regular', sans-serif !important;
+}
+
+.nav img {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #d0d0d089;
+}
+.blocks {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftblock {
+    width: 50%;
+    height: 1915px;
+    float: left;
+}
+.jacketblock {
+    width: 468px;
+    height: 428px;
+    box-shadow: 2px 2px 2px 2px #d0d0d089;
+}
+
+
+.lefthead{
+    display: inline-block;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.header .left {
+    float: left;
+    color: #00095b;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.mustang {
+    color: #8c8c8c;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.header .right {
+    float: right;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #00095b;
+}
+
+.descriptionblock {
+    width: 468px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #d0d0d089;
+    font-family:'Ford Antenna Light';
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
+  
+}
+
+.descriptionblock span {
+    color: black;
+    padding: 30px 0px 0px 30px;
+    font-weight: bolder;
+}
+
+.descriptionblock h3 {
+    color: #00095b;
+    padding: 0px 0px 0px 30px;
+    font-weight: 100;
+}
+
+.descriptionblock h4 {
+    color: #00095b;
+    padding: 0px 0px 0px 30px;
+    font-weight: 100;
+}
+.descriptionblock p {
+    padding: 0px 30px 10px 30px;
+    color: #8c8c8c;
+    font-weight: 100;
+    line-height: 1.87;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.descriptionblock ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8c8c8c;
+    font-weight: 100;
+    line-height: 1.87;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.descriptionblock h6 {
+    padding: 10px 0px 10px 0px;
+    color: #5e5e5e;
+    font-weight: bold;
+    line-height: 1.87;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.sizeguide {
+    padding: 0px 10px 10px 0px;
+    width: 400px;
+} 
+
+.payment {
+    width: 468px;
+    height: auto;
+}
+
+.payment img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px #d0d0d089;
+}
+
+.rightblock{
+    width: 50%;
+    height: 788.88 ;
+    height: auto;
+    float: right;
+    box-shadow: 2px 2px 2px 2px #d0d0d089;
+    background-color: white;
+
+}
+
+.item {
+    font-family:'Ford Antenna Light';
+    padding: 0px 30px 10px 30px;
+}
+
+.item h1 {
+    font-family:'Ford Antenna Light';
+    font-weight: lighter;
+    color: #00095b;
+    font-size: 28px;
+}
+
+.discount {
+    font-family:'Ford Antenna Cond Regular';
+    color: white;
+    font-weight: 400;
+    background-color: red;
+    text-align: center;
+    width: 70px;
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.items p{
+    font-family:'Ford Antenna Light';
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e5e5e;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+}
+
+.item{
+    font-family:'Ford Antenna Light';
+    font-size: 8px;
+    font-weight: bold;
+    color: #5e5e5e;
+}
+.sociallogos {
+    display: flex;
+    float: right;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+svg {
+    fill: #5e5e5e;
+}
+
+.selection { 
+    overflow: hidden;
+}
+
+.items {
+    font-family:'Ford Antenna Light';
+    font-size: 12px;
+    font-weight: bold;
+    color: #5e5e5e;
+    margin-right: 15px;
+}
+
+.item p{
+    display: inline;
+    font-size: 12px;
+}

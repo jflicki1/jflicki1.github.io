@@ -1,19 +1,22 @@
 
 html {
     margin-top: 0;
-    margin-right: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 * {
-    background-color:  white;
+    background-color: white;
     font-family: 'Ford Antenna Regular', sans-serif !important;
 }
 
-
+body {
+    background-color: #F4F4F4;
+}
 .nav {
     width: 100%;
     position: sticky;
+    background-color: #F4F4F4;
 }
     
 .sectionheader {
@@ -73,10 +76,12 @@ html {
    border: none;
    cursor: pointer;
    background-color: #F4F4F4;
+
 }
 
 .shortdescription p.expanded {
-    height: auto
+    height: auto;
+    background-color: #F4F4F4;
 }
 
 .textnav {
@@ -126,11 +131,13 @@ background-color: #F4F4F4;
 
 .images a {
     display: hidden;
-    background-color: #F4F4F4;
 }
 
 .imag1,
-.img2 {
+.imag2,
+.imag3,
+.imag4,
+.imag5 {
 display: flex;
 flex-direction: column;
  width: 100%;
@@ -142,18 +149,20 @@ flex-direction: column;
 }
 
 .imag1 a,
-.img2 a{
+.imag2 a,
+.imag3 a,
+.imag4 a,
+.imag5 a{
     width: 100%;
     height: auto;
     overflow: hidden;
     color: #00095b;
     background-color: #F4F4F4;
 }
-.newarrivals,
-.bestselling {
+
+.gallery {
     width: 100%;
-    height: auto;
-    overflow: hidden;
+    min-height: auto;
     background-color: #F4F4F4;
 }
 
@@ -167,9 +176,5 @@ flex-direction: column;
 .body img {
     width: 100%;
     height: auto;
-    background-color: #F4F4F4;
-}
-
-body {
     background-color: #F4F4F4;
 }
